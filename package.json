@@ -1,0 +1,24 @@
+{
+  "name": "data-store",
+  "version": "0.0.0",
+  "description": "A data store based on PostgreSQL, PL/V8 and Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/plus3network/data-store.git"
+  },
+  "author": "Chris Cowan",
+  "license": "BSD",
+  "dependencies": {
+    "restify": "~1.4.4",
+    "pg": "~0.8.4",
+    "async": "~0.1.22",
+    "connect": "~2.5.0",
+    "underscore": "~1.4.1",
+    "uuid-pure": "~1.0.10",
+    "nano": "~3.3.2"
+  }
+}
